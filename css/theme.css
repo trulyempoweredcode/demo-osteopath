@@ -1,0 +1,42 @@
+/* =============================================
+   THEME: Trusty Blue
+   Professional, trustworthy — healthcare, consulting
+   Font Pairing: Minimal (Sora + Work Sans)
+   ============================================= */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Work+Sans:wght@400;500;600&display=swap');
+
+/* --- Theme Variables --- */
+:root {
+  /* Colour Palette */
+  --color-primary: #3B6FA0;
+  --color-primary-light: #5A8FBF;
+  --color-primary-dark: #2A5178;
+  --color-secondary: #D4956A;
+  --color-secondary-light: #E2B08A;
+  --color-secondary-dark: #A06B3E;
+  --color-accent: #6B8E7B;
+  --color-accent-light: #8FB3A0;
+
+  --color-bg: #F8FAFB;
+  --color-bg-alt: #ECF1F4;
+  --color-bg-dark: #1E3A52;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F2F6F8;
+
+  --color-text: #2D3748;
+  --color-text-light: #64748B;
+  --color-text-inverse: #F8FAFB;
+  --color-text-heading: #1E3A52;
+
+  --color-border: #D4DCE4;
+  --color-border-light: #E8EDF2;
+
+  --color-success: #3B8F6F;
+  --color-error: #C45B5B;
+
+  /* Typography */
+  --font-heading: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
