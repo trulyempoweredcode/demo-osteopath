@@ -2954,7 +2954,7 @@ a.card--service:hover .card__link {
 
 .privacy-content h2 {
   font-size: var(--text-xl);
-  margin-top: 96px;
+  margin-top: var(--space-2xl);
   margin-bottom: var(--space-md);
 }
 
@@ -3410,6 +3410,11 @@ a.card--service:hover .card__link {
 .story-split__lead {
   line-height: var(--line-height-tight);
   color: var(--color-text-heading);
+}
+
+.story-split__lead h3 {
+  font-weight: 400;
+  line-height: 1.3em;
 }
 
 .story-split__content p {
@@ -6061,7 +6066,7 @@ a.card--service:hover .card__link {
 
 .blog-post__body h2 {
   font-size: var(--text-xl);
-  margin-top: 96px;
+  margin-top: var(--space-2xl);
   margin-bottom: var(--space-md);
 }
 
@@ -6131,7 +6136,7 @@ a.card--service:hover .card__link {
   align-items: center;
   gap: var(--space-md);
   padding-top: var(--space-2xl);
-  margin-top: 96px;
+  margin-top: var(--space-2xl);
   border-top: 1px solid var(--color-border-light);
 }
 
