@@ -2795,6 +2795,7 @@ a.card--service:hover .card__link {
 .services-sidebar__nav {
   display: flex;
   flex-direction: column;
+  gap: var(--space-lg);
   margin-bottom: var(--space-xl);
 }
 
