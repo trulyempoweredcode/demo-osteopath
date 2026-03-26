@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/theme.css">
   <!-- PROFILE:schema -->
   <!-- /PROFILE:schema -->
 </head>
@@ -20,42 +20,27 @@
   <a href="#main" class="skip-link">Skip to main content</a>
 
   <!-- SECTION: nav -->
-  <nav class="nav nav--two-tier" role="navigation" aria-label="Main navigation">
-    <div class="container">
-      <div class="nav__top">
-        <a href="index.html" class="nav__brand nav__brand--inline">
-          <div class="nav__brand-text">
-            <span class="nav__name"><!-- PROFILE:site_title -->Tom Richardson<!-- /PROFILE:site_title --></span>
-            <span class="nav__title"><!-- PROFILE:site_slogan -->Osteopathy<!-- /PROFILE:site_slogan --></span>
-          </div>
-        </a>
-        <div class="nav__contact">
-          <div class="nav__contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-            <!-- PROFILE:phone_landline --><a href="tel:07700900207">07700 900 207</a><!-- /PROFILE:phone_landline -->
-          </div>
-          <div class="nav__contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            <!-- PROFILE:email --><a href="mailto:email@yourdomain.com">email@yourdomain.com</a><!-- /PROFILE:email -->
-          </div>
-        </div>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand">
+        <!-- PROFILE:logo --><!-- /PROFILE:logo -->
+        <span class="nav__name"><!-- PROFILE:site_title -->Tom Richardson Osteopathy<!-- /PROFILE:site_title --></span>
+        <span class="nav__title"><!-- PROFILE:site_slogan -->Expert Osteopathy for a Pain-Free Life<!-- /PROFILE:site_slogan --></span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="pricing.html" class="nav__link">Pricing</a>
+        <a href="faq.html" class="nav__link nav__link--active">FAQ</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="contact.html" class="btn btn--primary nav__cta">Book an Appointment</a>
       </div>
-      <div class="nav__bottom">
-        <div class="nav__links">
-          <a href="index.html" class="nav__link">Home</a>
-          <a href="about.html" class="nav__link">About</a>
-          <a href="services.html" class="nav__link">Services</a>
-          <a href="pricing.html" class="nav__link">Pricing</a>
-          <a href="faq.html" class="nav__link nav__link--active">FAQ</a>
-          <a href="contact.html" class="nav__link">Contact</a>
-          <a href="contact.html" class="btn btn--primary nav__cta">Book an Appointment</a>
-        </div>
-        <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
-          <span class="nav__toggle-bar"></span>
-          <span class="nav__toggle-bar"></span>
-          <span class="nav__toggle-bar"></span>
-        </button>
-      </div>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
     </div>
     <div class="nav__mobile" id="mobile-menu" role="menu">
       <a href="index.html" class="nav__link" role="menuitem">Home</a>
@@ -65,16 +50,6 @@
       <a href="faq.html" class="nav__link nav__link--active" role="menuitem">FAQ</a>
       <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
       <a href="contact.html" class="btn btn--primary" role="menuitem">Book an Appointment</a>
-      <div class="nav__mobile-contact">
-        <div class="nav__contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          <a href="tel:07700900207">07700 900 207</a>
-        </div>
-        <div class="nav__contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          <a href="mailto:email@yourdomain.com">email@yourdomain.com</a>
-        </div>
-      </div>
     </div>
   </nav>
   <!-- /SECTION: nav -->
@@ -83,15 +58,15 @@
   <div class="nav-scroll" aria-hidden="true">
     <div class="container nav-scroll__inner">
       <div class="nav-scroll__brand">
-        <span class="nav-scroll__name">Tom Richardson</span>
-        <span class="nav-scroll__title">Osteopathy</span>
+        <span class="nav-scroll__name"><!-- PROFILE:site_title -->Tom Richardson Osteopathy<!-- /PROFILE:site_title --></span>
+        <span class="nav-scroll__title"><!-- PROFILE:site_slogan -->Expert Osteopathy for a Pain-Free Life<!-- /PROFILE:site_slogan --></span>
       </div>
       <div class="nav-scroll__right">
-        <a href="tel:07700900207" class="nav-scroll__phone">
+        <a href="tel:07700900471" class="nav-scroll__phone">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          07700 900 207
+          07700 900 471
         </a>
-        <a href="tel:07700900207" class="nav-scroll__phone-icon" aria-label="Call me">
+        <a href="tel:07700900471" class="nav-scroll__phone-icon" aria-label="Call us">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         </a>
         <button class="nav-scroll__toggle" aria-label="Toggle menu">
@@ -110,13 +85,13 @@
       <div class="container">
         <span class="section-label">Common Questions</span>
         <h1>Frequently Asked Questions</h1>
-        <p>Everything you need to know about osteopathy and appointments with me. If your question isn't here, get in touch.</p>
+        <p>Everything you need to know about osteopathy and appointments at my Leeds practice. If your question isn't covered here, feel free to get in touch.</p>
       </div>
     </section>
     <!-- /SECTION: page-header -->
 
     <!-- SECTION: faq -->
-    <section class="section reveal">
+    <section class="section section--alt">
       <div class="container container--narrow">
         <div class="accordion">
 
@@ -126,27 +101,17 @@
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>Osteopathy is a form of manual therapy that focuses on the diagnosis, treatment, and prevention of musculoskeletal problems. Osteopaths use their hands to identify areas of restriction, tension, or imbalance in the body, and treat them using techniques like soft tissue massage, joint mobilisation, and manipulation. It's a regulated healthcare profession in the UK, and all practising osteopaths must be registered with the General Osteopathic Council.</p>
+              <p>Osteopathy is a form of manual therapy that focuses on the diagnosis, treatment, and prevention of musculoskeletal problems. As a registered osteopath, I use my hands to identify areas of restriction, tension, or imbalance in the body and treat them using techniques such as soft tissue massage, joint mobilisation, and manipulation. Osteopathy is a regulated healthcare profession in the UK, and all practising osteopaths must be registered with the General Osteopathic Council (GOsC).</p>
             </div>
           </div>
 
           <div class="accordion__item">
             <button class="accordion__trigger" aria-expanded="false">
-              <span>Do I need a GP referral?</span>
+              <span>What happens in my first appointment?</span>
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>No, you don't need a referral from your GP to see an osteopath. You can book directly with me. However, if you have a complex medical history or are currently under investigation for a condition, it can be helpful to let your GP know you're seeking osteopathic treatment. I'm always happy to communicate with your GP if needed.</p>
-            </div>
-          </div>
-
-          <div class="accordion__item">
-            <button class="accordion__trigger" aria-expanded="false">
-              <span>What should I wear to my appointment?</span>
-              <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-            </button>
-            <div class="accordion__content">
-              <p>Wear whatever you're comfortable in. I may need to examine and treat the area that's causing you trouble, so loose-fitting clothing or sportswear works well. For some assessments, I may ask you to remove outer layers so I can observe your posture and movement properly. You're welcome to bring shorts or a vest top if you'd prefer. Your comfort and dignity are always a priority.</p>
+              <p>Your initial consultation lasts 45 minutes. I'll start by taking a detailed case history, asking about your symptoms, medical background, and lifestyle. I'll then carry out a physical examination, which may include postural and movement assessments. From there, I'll explain my findings, give you a working diagnosis, and begin hands-on treatment in the same session. You'll leave with a clear understanding of what's going on and a plan for getting better.</p>
             </div>
           </div>
 
@@ -156,7 +121,7 @@
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>It depends on the condition, how long you've had it, and how your body responds to treatment. Many patients notice improvement within two to three sessions. After your initial consultation, I'll give you an honest estimate of how many appointments I think you'll need. I don't believe in booking unnecessary sessions — my aim is to get you better as efficiently as possible.</p>
+              <p>It depends on your condition, how long you've had it, and how your body responds to treatment. Many patients notice significant improvement within two to three sessions. After your initial consultation, I'll give you an honest estimate of the number of appointments I think you'll need. I don't believe in booking unnecessary sessions — my goal is to get you better as efficiently as possible.</p>
             </div>
           </div>
 
@@ -166,47 +131,57 @@
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>Most patients find treatment comfortable and even relaxing. Some techniques — particularly deep tissue work on tight muscles — can cause mild discomfort, but I'll always check in with you and adjust my approach. It's normal to feel a bit achy for a day or two after treatment, similar to how you might feel after exercise. This usually settles quickly and is a sign that your body is responding.</p>
+              <p>Most patients find treatment comfortable and even relaxing. Some techniques — particularly deep tissue work on tight muscles — can cause mild discomfort, but I'll always check in with you and adjust my approach accordingly. It's normal to feel a bit achy for a day or two after treatment, similar to how you might feel after exercise. This usually settles quickly and is a sign that your body is responding well.</p>
             </div>
           </div>
 
           <div class="accordion__item">
             <button class="accordion__trigger" aria-expanded="false">
-              <span>Can osteopathy help with headaches?</span>
+              <span>What conditions can osteopathy help with?</span>
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>Yes, many headaches — particularly tension headaches and cervicogenic headaches (those originating from the neck) — respond very well to osteopathic treatment. I'll assess your neck, upper back, and shoulders to identify any tension or joint restriction that may be contributing. Treatment typically involves gentle mobilisation and soft tissue techniques, combined with advice on posture and ergonomics.</p>
+              <p>Osteopathy can help with a wide range of musculoskeletal conditions including back pain, sciatica, neck pain, headaches, shoulder and elbow problems, hip and knee pain, sports injuries, repetitive strain injuries, postural issues, and pregnancy-related aches. If you're unsure whether osteopathy is suitable for your condition, feel free to call for a free 15-minute phone consultation.</p>
             </div>
           </div>
 
           <div class="accordion__item">
             <button class="accordion__trigger" aria-expanded="false">
-              <span>Do you treat pregnant women?</span>
+              <span>Do I need a GP referral?</span>
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>Absolutely. Pregnancy places significant demands on the body, and osteopathy can help manage the aches and pains that often come with it — particularly lower back pain, pelvic girdle pain, and hip discomfort. I use gentle, safe techniques that are adapted for each stage of pregnancy. Many of my patients find regular treatment throughout pregnancy helps them stay comfortable and mobile.</p>
+              <p>No, you don't need a referral from your GP to see an osteopath. You can book directly with me. However, if you have a complex medical history or are currently under investigation for a condition, it can be helpful to let your GP know you're seeking osteopathic treatment. I'm always happy to communicate with your GP or other healthcare providers if needed.</p>
             </div>
           </div>
 
           <div class="accordion__item">
             <button class="accordion__trigger" aria-expanded="false">
-              <span>What's your cancellation policy?</span>
+              <span>Do you offer online consultations?</span>
               <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             </button>
             <div class="accordion__content">
-              <p>I ask for at least 24 hours' notice if you need to cancel or reschedule your appointment. This allows me to offer the slot to another patient who may be waiting. Cancellations with less than 24 hours' notice, or missed appointments without contact, may be charged at the full session fee. I understand that things come up, so please just get in touch as soon as you can if your plans change.</p>
+              <p>While hands-on treatment needs to be carried out in person at my Leeds clinic, I do offer video consultations for exercise reviews, posture assessments, and follow-up advice. These can be a useful option if you're unable to attend the clinic or want guidance between appointments. Get in touch to discuss whether a virtual session would be appropriate for your situation.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>How do I book?</span>
+              <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <div class="accordion__content">
+              <p>You can book an appointment by filling in the <a href="contact.html">contact form</a>, calling me on <a href="tel:07700900471">07700 900 471</a>, or emailing <a href="mailto:email@yourdomain.com">email@yourdomain.com</a>. I aim to respond to all enquiries within a few hours during working days. If you're not sure whether osteopathy is right for you, I offer a free 15-minute phone call so we can have a chat before you commit.</p>
             </div>
           </div>
 
         </div>
       </div>
     </section>
-    <!-- /SECTION: faq-accordion -->
+    <!-- /SECTION: faq -->
 
     <!-- SECTION: cta -->
-    <section class="section section--alt cta-banner reveal">
+    <section class="section cta-banner reveal">
       <div class="container text-center">
         <h2>Still Have Questions?</h2>
         <p>Drop me a message or give me a call. I'm always happy to have a quick chat before you book, so you can make sure osteopathy is right for you.</p>
@@ -221,8 +196,8 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <p class="footer__brand-name">Tom Richardson</p>
-        <p class="footer__brand-text">Registered osteopath in Leeds offering hands-on treatment for back pain, neck pain, sports injuries, headaches, and joint problems. GOsC registered.</p>
+        <p class="footer__brand-name"><!-- PROFILE:site_title -->Tom Richardson Osteopathy<!-- /PROFILE:site_title --></p>
+        <p class="footer__brand-text"><!-- PROFILE:site_slogan -->Expert Osteopathy for a Pain-Free Life<!-- /PROFILE:site_slogan --></p>
       </div>
       <div class="footer__col">
         <p class="footer__heading">Quick Links</p>
@@ -236,27 +211,28 @@
         </div>
       </div>
       <div class="footer__col">
-        <p class="footer__heading">Treatments</p>
+                <p class="footer__heading">Services</p>
         <div class="footer__links">
-          <a href="services.html" class="footer__link">Back Pain &amp; Sciatica</a>
-          <a href="services.html" class="footer__link">Neck Pain &amp; Headaches</a>
-          <a href="services.html" class="footer__link">Sports Injuries</a>
-          <a href="services.html" class="footer__link">Joint &amp; Muscle Pain</a>
+          <a href="services.html#service-musculoskeletal" class="footer__link">Musculoskeletal Osteopathy</a>
+          <a href="services.html#service-sports" class="footer__link">Sports Injury Rehabilitation</a>
+          <a href="services.html#service-headaches" class="footer__link">Headache &amp; Migraine Treatment</a>
+          <a href="services.html#service-prenatal" class="footer__link">Pre &amp; Post-Natal Osteopathy</a>
+          <a href="services.html#service-ergonomics" class="footer__link">Workplace Ergonomics</a>
         </div>
       </div>
       <div class="footer__col">
         <p class="footer__heading">Contact</p>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          <span>07700 900 207</span>
+          <!-- PROFILE:phone_landline --><span>07700 900 471</span><!-- /PROFILE:phone_landline -->
         </div>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-          <a href="mailto:email@yourdomain.com">email@yourdomain.com</a>
+          <!-- PROFILE:email --><a href="mailto:email@yourdomain.com">email@yourdomain.com</a><!-- /PROFILE:email -->
         </div>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-          <span>9 Park Lane, Leeds, LS1</span>
+          <!-- PROFILE:address --><span>Leeds, LS1</span><!-- /PROFILE:address -->
         </div>
       </div>
     </div>
