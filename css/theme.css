@@ -41,21 +41,6 @@
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Remove info-band icon backgrounds */
-.info-band__icon,
-.info-band--primary .info-band__icon {
-  background: none !important;
-  width: auto;
-  height: auto;
-  border-radius: 0;
-}
-
-.info-band__icon svg,
-.info-band--primary .info-band__icon svg {
-  width: 32px;
-  height: 32px;
-}
-
 /* Hero text shadow for lighter overlay */
 .hero__heading,
 .hero__text {
