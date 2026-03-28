@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "osteopath-demo",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "D:/claude-custom-projects/Ai-Editor-Sites/demo-osteopath", "-l", "3456"],
+      "port": 3456
+    }
+  ]
+}
