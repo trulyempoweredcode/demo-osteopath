@@ -70,3 +70,12 @@
 .testimonial--standalone .testimonial__stars {
   justify-content: center;
 }
+
+/* Nav brand sizing */
+.nav__name {
+  font-size: var(--text-2xl);
+}
+
+.nav__title {
+  font-size: var(--text-sm);
+}
