@@ -71,6 +71,13 @@
   justify-content: center;
 }
 
+/* Portrait image — taller on desktop */
+@media (min-width: 768px) {
+  .intro__image-wrap {
+    min-height: 550px;
+  }
+}
+
 /* Nav brand sizing */
 .nav__name {
   font-size: var(--text-2xl);
